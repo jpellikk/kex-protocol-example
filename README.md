@@ -1,10 +1,10 @@
 # Key Exchange Protocol Example
 
-This project creates two executables (initiator and responder) that run a key exchange protocol over an UDP localhost connection.
+This project creates two executables (initiator and responder) that run a key exchange protocol over UDP on localhost.
 
 To compile the initiator and responder executables you must install the following packages (OpenSSL must be version 3):
 ```sh
-$ sudo apt-get install build-essential pkg-config openssl -y
+$ sudo apt-get install build-essential pkg-config openssl libssl-dev -y
 ```
 
 Generate an elliptic curve public/private key pair for the responder:
